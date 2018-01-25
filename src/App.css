@@ -1,0 +1,91 @@
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 2.5rem 4.5rem;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.error {
+  color: rgb(203, 51, 51);
+}
+
+button[disabled] {
+  background-color: #606c76;
+  border-color: #606c76;
+  color: #fff;
+  outline: 0;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Spacing helpers*/
+
+.m-b-sm {
+  margin-bottom: 0.5rem;
+}
+
+.m-b-md {
+  margin-bottom: 1rem;
+}
+
+.m-b-lg {
+  margin-bottom: 2rem;
+}
+
+.m-b-xl {
+  margin-bottom: 4rem;
+}
+
+.m-t-sm {
+  margin-top: 0.5rem;
+}
+
+.m-t-md {
+  margin-top: 1rem;
+}
+
+.m-t-lg {
+  margin-top: 2rem;
+}
+
+.m-t-xl {
+  margin-top: 4rem;
+}
+
+.m-r-sm {
+  margin-right: 0.5rem;
+}
+
+.m-r-md {
+  margin-right: 1rem;
+}
+
+.m-r-lg {
+  margin-right: 2rem;
+}
+
+.m-r-xl {
+  margin-right: 4rem;
+}
+
+.m-l-sm {
+  margin-left: 0.5rem;
+}
+
+.m-l-md {
+  margin-left: 1rem;
+}
+
+.m-l-lg {
+  margin-left: 2rem;
+}
+
+.m-l-xl {
+  margin-left: 4rem;
+}
+
+fieldset, input, select, textarea {
+  margin-bottom: 0.2rem;
+}

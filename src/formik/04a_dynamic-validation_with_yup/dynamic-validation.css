@@ -1,0 +1,17 @@
+.dynamic-validation__outer {
+    width: 450px;
+}
+
+.dynamic-validation {
+
+}
+
+.error-block {
+    width: 100%;
+    background-color: #ff3860;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
